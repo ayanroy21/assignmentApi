@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: $m-size;
+    // background: $body-back;
+}
+
+// h1 {
+//     font-size: 2.2rem;
+// }
+
+button{
+    cursor: pointer;
+}
+button:disabled{
+    cursor: default;
+}
+
+table{
+    
+    width:auto;
+    height: 800px;
+    background-color: white;
+    display: block;
+  }
+  
+  
+table tr{
+    width:800px;
+    height: 40px;
+    background-color: grey;
+    border: thin solid blue;
+    margin: 1rem 0;
+}
